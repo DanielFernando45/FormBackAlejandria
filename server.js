@@ -1,8 +1,8 @@
 const express=require("express")
 const cors=require("cors")
-const sequelize=require("./dbConnection")
+const sequelize=require("./registro_form/dbConnection")
 const bodyParser = require("body-parser")
-const RegistroRouter=require("./routes/Routes_Registro")
+const RegistroRouter=require("./registro_form/routes/Routes_Registro")
 
 require("dotenv").config()
 PORT_SERVER=process.env.PORT_SERVER

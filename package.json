@@ -2,10 +2,10 @@
   "name": "mi-backend",
   "version": "1.0.0",
   "description": "API para guardar registros desde formulario web",
-  "main": "app.js",
+  "main": "server.js",
   "scripts": {
-    "start": "node app.js",       
-    "dev": "nodemon app.js"       
+    "start": "node server.js",       
+    "dev": "nodemon server.js"       
   },
   "dependencies": {
     "body-parser": "^1.20.3",
