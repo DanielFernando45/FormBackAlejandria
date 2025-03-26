@@ -1,8 +1,8 @@
 const {Sequelize}=require("sequelize")
 require("dotenv").config()
 
-const sequelize=new Sequelize('prueba','root',process.env.PASSWORD_BD,{
-    host: '127.0.0.1',
+const sequelize=new Sequelize(process.env.DB_NAME,process.env.DB_USER,process.env.PASSWORD_BD,{
+    host: procces.env.DB_HOST,
     dialect: 'mysql',
     port:process.env.PORT_BD
 });
